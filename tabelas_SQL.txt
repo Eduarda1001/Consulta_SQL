@@ -1,0 +1,17 @@
+CREATE TABLE municipios_status(
+populacao_residente INTEGER NOT NULL,
+IDHM_rank INTEGER NOT NULL,
+educacao INTEGER NOT NULL,
+renda INTEGER NOT NULL,
+municipio_ID INTEGER NOT NULL,
+status_ID INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT
+)
+
+CREATE TABLE Gerencia_regiao(
+regiao NVARCHAR(15) NOT NULL,
+brancos_totais INTEGER NOT NULL,
+pretos_totais INTEGER NOT NULL,
+brancos_gerencias INTEGER NOT NULL,
+pretos_gerencias INTEGER NOT NULL,
+gerencia_ID INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT
+)
